@@ -5,6 +5,10 @@ Tutte le modifiche rilevanti a questo modulo sono documentate in questo file.
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e questo progetto aderisce al [Semantic Versioning](https://semver.org/lang/it/).
 
+## [1.1.1] - 2026-10-30
+### Modificato
+- Template Hyvä dei campi fattura: nessuna espressione Alpine inline (`{ req: false, biz: '0' }`, `biz === '1'`, `$event.target…`), ma il componente `tcInvoiceFields` registrato con `Alpine.data`. Funziona con la build CSP di Alpine (tema `Hyva/default-csp`). Nessun cambio di comportamento.
+
 ## [1.1.0] - 2026-10-14
 
 ### Added
